@@ -97,7 +97,7 @@
 
 @media (min-width: 1200px) {
   .row {
-    margin-left: -30px;
+    margin-left: -10px;
     *zoom: 1;
   }
   .row:before,
@@ -815,7 +815,9 @@
   .row-fluid {
     width: 100%;
   }
-  .row,
+  .row{
+    margin-left: 12px;
+  }
   .thumbnails {
     margin-left: 0;
   }
