@@ -97,7 +97,7 @@
 
 @media (min-width: 1200px) {
   .row {
-    margin-left: -10px;
+    margin-left: 20px;
     *zoom: 1;
   }
   .row:before,
@@ -885,10 +885,63 @@
     top: 20px;
   }
 }
+@media (min-width: 420px) {
+  .thumb-wrapp {
+    margin-left: -30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 360px;
+    height: 420px;
+  }
+  .folio-image {
+  
+  }
+}
 
 @media (max-width: 480px) {
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
+  }
+  #topnavbar {
+    margin-bottom: 20px;
+  }
+  .span_h3_for_mob {
+    font-size: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  .headline h3 {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 5%;
+    padding-bottom: 
+  }
+  header img {
+    width: 70%;
+    height: auto;
+  }
+  
+  .row img {
+    width: 390px;
+    height: auto;
+  }
+  .row{
+    width:100%;
+    height:auto;
+  }
+  .thumb-wrapp {
+     margin-left: -30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 360px;
+    height: 420px;
+    
   }
   .page-header h1 small {
     display: block;
