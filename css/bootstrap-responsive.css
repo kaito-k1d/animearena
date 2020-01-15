@@ -902,6 +902,18 @@
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
+  #preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1F212D;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  margin-right: 20px;
+  /* makes sure it stays on top */
+}
   #topnavbar {
     margin-bottom: 20px;
   }
