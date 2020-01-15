@@ -898,9 +898,9 @@ ul.filter li a{
 .portfolio-area{
 	float: left;
 	width:100%;
-	margin:0 0 0 15px;
+	margin:0 0 0 0px;
 	padding:0;
-	margin-left:29px;
+	margin-left:0px;
 }
 
 .portfolio-area li{

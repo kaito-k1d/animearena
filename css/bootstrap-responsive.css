@@ -902,6 +902,19 @@
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
+  .portfolio-area{
+    margin-left: 30px;
+  }
+  .row{
+    margin-left: 30px;
+
+  }
+  .container{
+    margin-right: 70px;
+  }
+  .fade{
+margin-right: 20px;
+  }
   #preloader {
   position: fixed;
   top: 0;
