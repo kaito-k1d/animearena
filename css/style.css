@@ -1533,6 +1533,8 @@ section#featured{
 #sequence-theme #sequence {
   min-height: 300px;
   padding-right:40px;
+  width:350px;
+  margin-left: -40px;
 }
 
 #sequence ul li h4.subtitle {

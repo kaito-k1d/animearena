@@ -915,6 +915,10 @@
   .fade{
 margin-right: 20px;
   }
+  .lefttop{
+    width: 350px;
+    margin-left: -40px;
+  }
   #preloader {
   position: fixed;
   top: 0;
