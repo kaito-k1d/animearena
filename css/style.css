@@ -4,6 +4,19 @@
 /* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
 #status {
   width: 1000%;
   height: 100vh;
@@ -44,17 +57,6 @@ body {
 
 iframe, embed, object {
 	border:none;
-}
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  /* change if the mask should have another color then white */
-  z-index: 99;
-  /* makes sure it stays on top */
 }
 
 
